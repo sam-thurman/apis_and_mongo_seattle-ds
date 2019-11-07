@@ -37,3 +37,16 @@ params['limit'] = 1
 response = requests.get(url=url, params=params)
 data = json.loads(response.text)
 ```
+# Installing MongoDB
+
+This can be easier said than done.
+
+Try this first:
+
+In the terminal, run:
+
+```brew install mongodb```<br/>
+
+If that doesn't work, follow the *second* link below. Please note that the `tar` and the `sudo` commands refer to the gzipped tar file that you just downloaded, which _includes the version number in its name_. The instructions below are from earlier this year and they refer to Version 3.6.1. Adjust this as needed. (When I last installed MongoDB, the version no. was 4.2.1.) 
+
+For more on installation, see [here](https://treehouse.github.io/installation-guides/mac/mongo-mac.html) and [here](http://www.codebind.com/mongodb/install-mongodb-mac-os-x/).
