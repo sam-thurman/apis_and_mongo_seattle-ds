@@ -1,3 +1,5 @@
+This repository contains information about using APIs and MongoDB in collecting and storing data. It was designed for pedagogical purposes and began life as a fork of Miles Erickson's repository about APIs. His instructions for registering for the Foursquare API are detailed below.
+
 # Foursquare API Example
 
 ## Register
